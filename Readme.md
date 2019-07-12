@@ -2,20 +2,20 @@
 
 This tiny script will help you unsubscribe channels in bulk and start over with clean sheet
 or simply reduce the number of channels you subscribed to.
-This solution relies on unsubscribe buttons shown on page so sadly, you can only unsubscribe one page at a time.
+Small caveat: this solution relies on unsubscribe buttons so you can only unsubscribe channels shown on webpage when you start the script which shouldn't be a big problem since youtube shows dozens at a time.
 
 ## Installation
-### Convenient
+### The easy way
 - get userscript manager plugin for your browser such as TamperMonkey, ViolentMonkey etc..
-- copypaste contents of js file in there
+- create a new userscript with code from js file in this repository
 
-### Inconvenient
+### The hard way
 - copypaste contents of js file in your browser devtools console every time you want to use it
 (you will need to do this on every refresh and browser location change)
 
 ## Usage
 - go to https://www.youtube.com/subscription_manager
-- open up your browser devtools (most browser have it bound to F12)
+- open up your browser devtools (most browsers have it bound to F12)
 - go to console tab
 - type `unsub()`
 - wait couple of seconds depending on your connection
